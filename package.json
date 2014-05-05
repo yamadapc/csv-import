@@ -1,0 +1,23 @@
+{
+  "name": "csv-import",
+  "version": "0.0.0",
+  "description": "An example of importing .csv spreadsheets into mongodb.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yamadapc/csv-import"
+  },
+  "keywords": [
+    "csv",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Pedro Yamada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamadapc/csv-import/issues"
+  }
+}
