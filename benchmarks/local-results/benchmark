@@ -1,0 +1,16 @@
+insertEntries-parallel x 1.45 ops/sec ±5.86% (12 runs sampled)
+	Total time: 8.508
+	Time per cycle: 0.6885271207499999
+insertEntriesOnce x 12.58 ops/sec ±12.41% (62 runs sampled)
+	Total time: 5.914
+	Time per cycle: 0.07948444469354836
+insertEntriesOnceValidate x 4.46 ops/sec ±5.14% (26 runs sampled)
+	Total time: 6.242
+	Time per cycle: 0.22442386753846158
+insertEntriesBlocks x 15.33 ops/sec ±13.27% (41 runs sampled)
+	Total time: 5.874
+	Time per cycle: 0.13048814575609752
+insertEntriesBlocksValidate x 4.74 ops/sec ±6.17% (27 runs sampled)
+	Total time: 6.113
+	Time per cycle: 0.21090622037037038
+Fastest is insertEntriesBlocks

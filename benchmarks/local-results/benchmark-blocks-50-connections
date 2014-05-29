@@ -1,0 +1,55 @@
+blocksize = 2000 x 17.82 ops/sec ±7.31% (48 runs sampled)
+	Total time: 5.896
+	Time per cycle: 0.11221062218750001
+blocksize = 1900 x 17.52 ops/sec ±6.87% (46 runs sampled)
+	Total time: 5.98
+	Time per cycle: 0.11415768169565219
+blocksize = 1800 x 11.74 ops/sec ±51.91% (31 runs sampled)
+	Total time: 5.794
+	Time per cycle: 0.17036306622580644
+blocksize = 1700 x 16.87 ops/sec ±8.58% (45 runs sampled)
+	Total time: 5.88
+	Time per cycle: 0.11856689826666664
+blocksize = 1600 x 16.70 ops/sec ±9.07% (45 runs sampled)
+	Total time: 5.911
+	Time per cycle: 0.11977607871111111
+blocksize = 1500 x 17.05 ops/sec ±8.26% (46 runs sampled)
+	Total time: 5.957
+	Time per cycle: 0.11730804015217394
+blocksize = 1400 x 17.46 ops/sec ±6.99% (46 runs sampled)
+	Total time: 5.978
+	Time per cycle: 0.11457579769565218
+blocksize = 1300 x 16.45 ops/sec ±9.14% (43 runs sampled)
+	Total time: 5.916
+	Time per cycle: 0.12158573237209304
+blocksize = 1200 x 17.35 ops/sec ±7.97% (45 runs sampled)
+	Total time: 5.864
+	Time per cycle: 0.11529076913333339
+blocksize = 1100 x 17.32 ops/sec ±7.98% (46 runs sampled)
+	Total time: 5.905
+	Time per cycle: 0.11547230013043475
+blocksize = 1000 x 15.65 ops/sec ±10.48% (43 runs sampled)
+	Total time: 6.017
+	Time per cycle: 0.1278059746511628
+blocksize = 900 x 15.80 ops/sec ±10.13% (42 runs sampled)
+	Total time: 5.91
+	Time per cycle: 0.12655633571428573
+blocksize = 800 x 11.08 ops/sec ±56.01% (30 runs sampled)
+	Total time: 5.836
+	Time per cycle: 0.18043464003333332
+blocksize = 700 x 16.33 ops/sec ±10.32% (45 runs sampled)
+	Total time: 6.016
+	Time per cycle: 0.12250103295555559
+blocksize = 600 x 15.92 ops/sec ±10.58% (42 runs sampled)
+	Total time: 5.936
+	Time per cycle: 0.1256649109285714
+blocksize = 500 x 16.52 ops/sec ±9.67% (44 runs sampled)
+	Total time: 6.004
+	Time per cycle: 0.12105355609090909
+blocksize = 400 x 15.42 ops/sec ±11.47% (41 runs sampled)
+	Total time: 5.955
+	Time per cycle: 0.1297173644390244
+blocksize = 300 x 16.48 ops/sec ±9.71% (44 runs sampled)
+	Total time: 6.007
+	Time per cycle: 0.12134806577272728
+Fastest is blocksize = 2000,blocksize = 1900,blocksize = 1400,blocksize = 1200,blocksize = 1100,blocksize = 1500,blocksize = 1700,blocksize = 1600,blocksize = 1300,blocksize = 500,blocksize = 300,blocksize = 700,blocksize = 600,blocksize = 800
