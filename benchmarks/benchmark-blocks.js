@@ -42,7 +42,10 @@ for(var blockSize = SAMPLE_SIZE; blockSize > 200; blockSize -= 100) {
   suite.add('blocksize = ' + blockSize, function(deferred) {
     var records = setup();
     insertEntriesBlocks(Contact, records, blockSize, function(err) {
-      if(err) deferred.abort(err);
+      if(err) {
+        console.error(err.stack);
+        suite.abort(err);
+      }
       else deferred.resolve();
     });
   }, { defer: true });

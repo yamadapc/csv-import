@@ -44,7 +44,10 @@ suite
   .add('insertEntries-parallel', function(deferred) {
     var records = setup();
     insertEntries(Contact, records, function(err) {
-      if(err) deferred.abort(err);
+      if(err) {
+        console.error(err.stack);
+        suite.abort(err);
+      }
       else deferred.resolve();
     });
   }, { defer: true });
@@ -53,7 +56,10 @@ suite
   .add('insertEntriesOnce', function(deferred) {
     var records = setup();
     insertEntriesOnce(Contact, records, function(err) {
-      if(err) deferred.abort(err);
+      if(err) {
+        console.error(err.stack);
+        suite.abort(err);
+      }
       else deferred.resolve();
     });
   }, { defer: true });
@@ -62,7 +68,10 @@ suite
   .add('insertEntriesOnceValidate', function(deferred) {
     var records = setup();
     insertEntriesOnceValidate(Contact, records, function(err) {
-      if(err) deferred.abort(err);
+      if(err) {
+        console.error(err.stack);
+        suite.abort(err);
+      }
       else deferred.resolve();
     });
   }, { defer: true });
@@ -71,7 +80,10 @@ suite
   .add('insertEntriesBlocks', function(deferred) {
     var records = setup();
     insertEntriesBlocks(Contact, records, 500, function(err) {
-      if(err) deferred.abort(err);
+      if(err) {
+        console.error(err.stack);
+        suite.abort(err);
+      }
       else deferred.resolve();
     });
   }, { defer: true });
@@ -80,7 +92,10 @@ suite
   .add('insertEntriesBlocksValidate', function(deferred) {
     var records = setup();
     insertEntriesBlocksValidate(Contact, records, 500, function(err) {
-      if(err) deferred.abort(err);
+      if(err) {
+        console.error(err.stack);
+        suite.abort(err);
+      }
       else deferred.resolve();
     });
   }, { defer: true });
