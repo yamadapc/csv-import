@@ -23,7 +23,7 @@
   "devDependencies": {
     "benchmark": "^2.1.0",
     "chance": "^0.8.0",
-    "mocha": "^2.4.4",
+    "mocha": "^2.4.5",
     "mongoose": "^4.3.7",
     "should": "^8.2.1"
   },
